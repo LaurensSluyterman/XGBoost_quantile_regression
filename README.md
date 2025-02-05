@@ -23,7 +23,7 @@ excessive steps that could happen due to the relatively small second derivative.
 The file 'objective_functions.py' contains an implementation of the loss
 arctan pinball loss. Note that this is written for the sklearn api and therefore
 returns the negative gradient. This needs to be changed when working with
-the default xgboost package. Also not that this implementation use a slow 
+the default xgboost package. Also note that this implementation uses a slow 
 for loop in python and may slow down the model.
 
 The file 'sin_example.ipynb' provides a simple 1d toy-example as a proof of concept.
